@@ -38,9 +38,15 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Red " viva colombiaa " 
+Write-Host -ForegroundColor Red " 
+███████╗███████╗██╗░░░░░██╗░██████╗░░█████╗░░█████╗░████████╗
+██╔════╝██╔════╝██║░░░░░██║██╔════╝░██╔══██╗██╔══██╗╚══██╔══╝
+█████╗░░█████╗░░██║░░░░░██║██║░░██╗░██║░░██║███████║░░░██║░░░
+██╔══╝░░██╔══╝░░██║░░░░░██║██║░░╚██╗██║░░██║██╔══██║░░░██║░░░
+██║░░░░░███████╗███████╗██║╚██████╔╝╚█████╔╝██║░░██║░░░██║░░░
+╚═╝░░░░░╚══════╝╚══════╝╚═╝░╚═════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░ " 
 Write-Host "";
-Write-Host -ForegroundColor Green " feligoat "; -NewLine
+Write-Host -ForegroundColor Green " estas en manos de expertos, viva colombia! "; -NewLine
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
